@@ -1,0 +1,40 @@
+# ai_agent_demo/.streamlit/config.toml
+
+[theme]
+# Primary accent color (a bright green)
+primaryColor = "#00FF41"  # Matrix green
+
+# Background color of the main app area (very dark)
+backgroundColor = "#000000" # Black
+
+# Background color of sidebar and secondary elements (darker green/black)
+secondaryBackgroundColor = "#001A00" # Very dark green/black
+
+# Color of the text in the app (Matrix green)
+textColor = "#00FF41" # Bright Matrix green
+
+# Font family (monospace for a code-like feel)
+font = "monospace"
+
+# Base Streamlit theme
+base = "dark"
+
+[global]
+# Suppress the "This app has no widgets" warning if you want.
+# suppressWarningOnEmptyPage = true
+
+[server]
+# The port that the server will listen on for browser connections.
+port = 8505 # Matches the port you're currently using for local testing
+
+# Set this to true if you're deploying on a public network and want to disable the warning.
+# headless = true
+
+# If you're running this on a network where you need to explicitly allow connections,
+# specify the IP address or hostname.
+# ip = "0.0.0.0"
+
+[client]
+# Whether to show the Streamlit header and footer when in "deployed" mode
+showSidebarNavigation = true
+toolbarMode = "minimal"
